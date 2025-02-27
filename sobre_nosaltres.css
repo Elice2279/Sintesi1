@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-/*Estil de l'encapçalament*/
+/*Encapçalament*/
 header {
     padding: 20px;
     background-color: #a9dfbf;
@@ -22,12 +22,12 @@ header {
     background-size: cover;
 }
 
-/*Estil del logo*/
+/*Logo*/
 img {
     width: 200px;
 }
 
-/*Estil del menú*/
+/*Menú*/
 nav ul {
     list-style: none;
     padding: 20px;
@@ -36,12 +36,12 @@ nav ul {
     justify-content: center;
 }
 
-/*Estil de la llista del menú*/
+/*Llista del menú*/
 nav ul li {
     margin: 0;
 }
 
-/*Estil dels enllaços del menú*/
+/*Enllaços del menú*/
 nav ul li a {
     color: black;
     text-decoration: none;
@@ -49,13 +49,14 @@ nav ul li a {
     display: block;
 }
 
-/*Estil del menú al passar el cursor*/
+/*Menú al passar el cursor*/
 nav ul li a:hover {
     background: #28b463;
     border-radius: 5px;
     color: white;
 }
 
+/*Apartat*/
 main {
     padding: 20px;
     max-width: 94%;
@@ -64,11 +65,13 @@ main {
     animation: fadeIn 1.5s ease-out forwards;
 }
 
+/*Contenidor d'objectius*/
 #contenidor1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/*Missió i visió*/
 .missió-visió {
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +80,7 @@ main {
     margin-top: 2rem;
 }
 
+/*Requadres d'objectius*/
 .caixa {
     background-color: white;
     border-radius: 5px;
@@ -86,17 +90,20 @@ main {
     text-align: center;
 }
 
+/*Títol de cada objectiu*/
 .caixa h2 {
     font-size: 1.5em;
     color: #333;
 }
 
+/*Text de cada objectiu*/
 .caixa p {
     font-size: 1em;
     color: #555;
     line-height: 1.5;
 }
 
+/*Requadre de valors*/
 .valors {
     margin-top: 2rem;
     text-align: center;
@@ -111,6 +118,7 @@ main {
     margin: 2rem auto;
 }
 
+/*Títol de valors*/
 .valors h2 {
     margin: 20px;
     margin-top: 30px;
@@ -118,6 +126,7 @@ main {
     color: #333;
 }
 
+/*Llista de valors*/
 .valors ul {
     margin-top: 15px;
     list-style-type: none;
@@ -125,16 +134,19 @@ main {
     margin: 20px;
 }
 
+/*Llistat de valors*/
 .valors li {
     font-size: 1em;
     margin-bottom: 0.8rem;
     color: #555;
 }
 
+/*Text en negreta de valors*/
 .valors li strong {
     color: #000;
 }
 
+/*Tic*/
 .valors li:before {
     content: '✔';
     color: #28b463;
@@ -142,16 +154,15 @@ main {
     font-size: 1em;
 }
 
+/*Peu de pàgina*/
 footer {
     background-color: #a9dfbf;
     padding: 2rem 1rem;
     line-height: 1.5;
 }
-
 .footer-bottom p {
     font-size: 15px;
 }
-
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #f5f3b3;
@@ -160,29 +171,27 @@ footer {
     color: black;
 }
 
+/*Responsive*/
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-    
     main {
         padding: 15px;
     }
-
     h1 {
         font-size: 2rem;
     }
-
     h2 {
         font-size: 1.5rem;
     }
-
     footer {
         font-size: 12px;
     }
 }
 
+/*Animació*/
 @keyframes fadeIn {
     from {
         opacity: 0;
